@@ -13,7 +13,7 @@ confinement: strict
 
 apps:
   syncthing:
-    command: syncthing
+    command: script/syncthing-snap-wrapper
     plugs: [home, network, network-bind]
 
 parts:
