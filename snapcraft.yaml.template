@@ -22,5 +22,7 @@ parts:
     plugin: dump
     stage:
       - syncthing
+      - script/syncthing-snap-wrapper
     snap:
       - syncthing
+      - script/syncthing-snap-wrapper
